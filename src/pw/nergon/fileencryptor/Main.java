@@ -18,11 +18,12 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("FileEncryptor - By Nergon");
+        primaryStage.setTitle("FileEncryptor - By Nergon - Improved by credit");
         primaryStage.setScene(new Scene(root, 452, 563));
         primaryStage.show();
         primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("icon.png")));
         System.out.println(System.getProperty("os.name"));
+       
     }
 
 
